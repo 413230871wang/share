@@ -1,0 +1,11 @@
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.demo.pojo
+
+spring:
+  datasource:
+  username: root
+  password: 3581688abc
+  url: jdbc:mysql://localhost:3306/share_yourself
+  driver-class-name: com.mysql.jdbc.Driver
